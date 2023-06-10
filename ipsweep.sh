@@ -1,10 +1,9 @@
-#commit 1 test
 #!/bin/bash
 
-if [ "$1" == ""]
+if [ "$1" == "" ]
 then
-echo "You forgot the IP address!"
-echo "Syntax: ./ipsweep.sh 192.168.4"
+echo "You forgot the IP address my avo-friend!"
+echo "Correct Syntax: ./ipsweep.sh 192.168.4"
 
 else
 for ip in `seq 1 254`; do
